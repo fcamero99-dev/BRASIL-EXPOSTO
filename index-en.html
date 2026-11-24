@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil Exposto - Home</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="identidad">
+
+            <div class="logo" aria-hidden="true">
+                ⚽
+            </div>
+
+            <h1>Brasil Exposto</h1>
+
+        </div>
+
+
+        <div class="idiomas" aria-label="Language selector">
+
+            <a href="index.html">
+                ES
+            </a>
+
+            <a href="index-en.html" class="idioma-activo">
+                EN
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <nav aria-label="Main navigation">
+        <a href="index-en.html" class="activo">HOME</a>
+
+        <div class="dropdown">
+            <a href="historia-en.html" class="dropdown-toggle">HISTORY ▾</a>
+            <div class="dropdown-menu">
+                <a href="historia-en.html#beginnings">Origins</a>
+                <a href="historia-en.html#evolution">Evolution</a>
+                <a href="historia-en.html#key-figures">Key Figures</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="cultura-en.html" class="dropdown-toggle">CULTURE ▾</a>
+            <div class="dropdown-menu">
+                <a href="cultura-en.html#passion">Passion</a>
+                <a href="cultura-en.html#celebration">Celebrations</a>
+                <a href="cultura-en.html#neighborhood">Street Football</a>
+                <a href="cultura-en.html#world">Worldwide</a>
+            </div>
+        </div>
+    </nav>
+<!-- Mensaje de bienvenida dinámico -->
+<div id="bienvenida" class="bienvenida" aria-live="polite">
+</div>
+
+    <main>
+
+        <section class="slider" aria-label="Brazilian football gallery">
+
+            <div class="slider-contenedor">
+
+                <div class="slide activo">
+                    <img src="images/aficionados.webp"
+                        alt="Fans celebrating Brazilian football">
+                </div>
+
+                <div class="slide">
+                    <img src="images/futbol-brasil.jpg"
+                        alt="Football as an expression of Brazilian culture">
+                </div>
+
+                <div class="slide">
+                    <img src="images/estadio.webp"
+                        alt="Brazilian football stadium">
+                </div>
+
+            </div>
+
+            <button class="slider-btn anterior"
+                    aria-label="Previous image">&#10094;</button>
+
+            <button class="slider-btn siguiente"
+                    aria-label="Next image">&#10095;</button>
+
+            <div class="slider-indicadores"></div>
+
+        </section>
+
+
+        <section class="mensaje">
+
+            <h2>More than a sport, a cultural passion</h2>
+
+            <p>
+                Discover how football is part of Brazil's identity,
+                emotions and culture.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Brasil Exposto - Football as an expression of Brazilian culture
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
